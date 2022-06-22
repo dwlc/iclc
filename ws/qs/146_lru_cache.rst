@@ -1,7 +1,8 @@
-146. LRU Cache
-==============
+146. `LRU Cache <https://leetcode.com/problems/lru-cache/>`_
+============================================================
 
-**Medium**
+* Difficulty:  Medium
+* Frequency: 99.48%
 
 Design a data structure that follows the constraints of a `Least Recently Used
 (LRU) cache <https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU>`_.
@@ -46,10 +47,10 @@ Example
 Constraints
 -----------
 
-* 1 :math:`\le` capacity :math:`\le` 3000
-* 0 :math:`\le` key :math:`\le 10^4`
-* 0 :math:`\le` value :math:`\le 10^5`
-* At most 2 * :math:`10^5` calls will be made to ``get`` and ``put``.
+* 1 <= ``capacity`` <= 3000
+* 0 <= ``key`` <= :math:`10^4`
+* 0 <= ``value`` <= :math:`10^5`
+* At most 2 * :math:`10^5` calls will be made to ``get()`` and ``put()``.
 
 Source Prototype
 ----------------

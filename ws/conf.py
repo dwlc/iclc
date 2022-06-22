@@ -25,7 +25,8 @@ author = 'dwlc'
 version = '1.0'
 
 # The full version, including alpha/beta/rc tags
-release = '1'
+release = 'r2'
+release = version + ' ' + release
 
 
 # -- General configuration ---------------------------------------------------
